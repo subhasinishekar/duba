@@ -1,0 +1,207 @@
+body {
+
+  margin: 0;
+
+  font-size: 28px;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+.header {
+
+  background-color: #f1f1f1;
+
+  padding: 30px;
+
+  text-align: center;
+
+}
+
+
+
+#navbar {
+
+  overflow: hidden;
+
+  background-color: #333;
+
+}
+
+
+
+#navbar a {
+
+  float: left;
+
+  display: block;
+
+  color: #f2f2f2;
+
+  text-align: center;
+
+  padding: 14px 16px;
+
+  text-decoration: none;
+
+  font-size: 17px;
+
+}
+
+
+
+#navbar ul {
+
+    list-style: none;
+
+    margin: 0 0 0 0;
+
+    padding: 0;
+
+  }
+
+
+
+#navbar ul li {
+
+    display:inline;
+
+    margin: 0 0 0 0;
+
+    padding: 0;
+
+  }
+
+
+
+#navbar ul li.home {
+
+    border-bottom-color: #0071c5;
+
+  }
+
+#navbar ul li.about {
+
+    border-bottom-color: #0071c5;
+
+  }  
+
+#navbar ul li.education {
+
+    border-bottom-color: #0071c5;
+
+  }
+
+#navbar ul li.projects {
+
+    border-bottom-color: #0071c5;
+
+  }  
+
+#navbar ul li.acheivements {
+
+    border-bottom-color: #0071c5;
+
+  }  
+
+#navbar ul li.contact {
+
+    border-bottom-color: #0071c5;
+
+  }  
+
+
+
+  .top-page {
+
+    margin-top: 75px;
+
+  }
+
+  
+
+  .page {
+
+    min-height: 500px;
+
+  }
+
+  
+
+  .page.home {
+
+    background-color: #0071c5;
+
+  }
+
+  
+
+  .page.about {
+
+    background-color: #c4d600;
+
+  }
+
+  
+
+  .page.projects {
+
+    background-color: #fc4c02;
+
+  }
+
+  
+
+  .page.acheivements {
+
+    background-color: #f3d54e;
+
+  }
+
+
+
+#navbar a:hover {
+
+  background-color: #ddd;
+
+  color: black;
+
+}
+
+
+
+#navbar a.active {
+
+  background-color: #ddd;
+
+  color: black;
+
+}
+
+
+
+.content {
+
+  padding: 16px;
+
+}
+
+
+
+.sticky {
+
+  position: fixed;
+
+  top: 0;
+
+  width: 100%;
+
+}
+
+
+
+.sticky + .content {
+
+  padding-top: 60px;
